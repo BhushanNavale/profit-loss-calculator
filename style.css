@@ -1,0 +1,71 @@
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+  }
+  h1 {
+    margin-bottom: 2rem;
+    color: #00adb5;
+  }
+  .calculator {
+    background-color: #16242f;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 173, 181, 0.6);
+    width: 320px;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  input[type="number"] {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  button {
+    flex: 1;
+    padding: 0.7rem;
+    background-color: #00adb5;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #222;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #037f8c;
+    color: #fff;
+  }
+  .result {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-height: 1.4em;
+    text-align: center;
+  }
+  .profit {
+    color: #32cd32; /* lime green */
+  }
+  .loss {
+    color: #ff4c4c; /* red */
+  }
+  .neutral {
+    color: #cccccc; /* grey */
+  }
